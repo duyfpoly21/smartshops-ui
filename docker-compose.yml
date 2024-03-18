@@ -1,10 +1,10 @@
-version: "3.4"
-
-services:
-  app:
-    image: learning-docker/vue:v1
-    volumes:
-      - ./src:/app/src
-    ports:
-      - "3000:3000"
-    restart: unless-stopped
+#version: "3.4"
+#
+#services:
+#  app:
+#    image: learning-docker/vue:v1
+#    volumes:
+#      - ./src:/app/src
+#    ports:
+#      - "3000:3000"
+#    restart: unless-stopped
